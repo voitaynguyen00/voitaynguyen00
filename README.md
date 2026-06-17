@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0969da&height=160&section=header&text=%F0%9F%90%98%20VoiTayNguyen&fontSize=40&fontColor=ffffff&animation=fadeIn&desc=Embedded+Systems+Engineer&descSize=18&descAlignY=75" />
+<img width="100%" src="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/main/header-oscilloscope.svg" />
 
 <div align="center">
   <a href="https://github.com/voitaynguyen00">

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180">
+<defs>
+<style>
+  @keyframes draw { from { stroke-dashoffset: 700; } to { stroke-dashoffset: 0; } }
+  @keyframes drawClk { from { stroke-dashoffset: 900; } to { stroke-dashoffset: 0; } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  .mono { font-family: 'Courier New', monospace; }
+  .f1 { animation: fadeIn 0.7s ease 0.1s both; }
+  .f2 { animation: fadeIn 0.7s ease 0.5s both; }
+  .f3 { animation: fadeIn 0.7s ease 0.9s both; }
+  .f4 { animation: fadeIn 0.7s ease 1.3s both; }
+  .live { animation: blink 1.5s step-end infinite; }
+</style>
+<filter id="glow">
+  <feGaussianBlur stdDeviation="2.5" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+
+<!-- Background -->
+<rect width="800" height="180" fill="#0d1117"/>
+
+<!-- Oscilloscope panel -->
+<rect x="305" y="8" width="488" height="142" rx="5" fill="#070b10" stroke="#21262d" stroke-width="1"/>
+
+<!-- Grid dots -->
+<g fill="#161b22">
+  <rect x="357" y="42" width="2" height="2"/><rect x="402" y="42" width="2" height="2"/>
+  <rect x="447" y="42" width="2" height="2"/><rect x="492" y="42" width="2" height="2"/>
+  <rect x="537" y="42" width="2" height="2"/><rect x="582" y="42" width="2" height="2"/>
+  <rect x="627" y="42" width="2" height="2"/><rect x="672" y="42" width="2" height="2"/>
+  <rect x="717" y="42" width="2" height="2"/><rect x="762" y="42" width="2" height="2"/>
+  <rect x="357" y="78" width="2" height="2"/><rect x="402" y="78" width="2" height="2"/>
+  <rect x="447" y="78" width="2" height="2"/><rect x="492" y="78" width="2" height="2"/>
+  <rect x="537" y="78" width="2" height="2"/><rect x="582" y="78" width="2" height="2"/>
+  <rect x="627" y="78" width="2" height="2"/><rect x="672" y="78" width="2" height="2"/>
+  <rect x="717" y="78" width="2" height="2"/><rect x="762" y="78" width="2" height="2"/>
+  <rect x="357" y="114" width="2" height="2"/><rect x="402" y="114" width="2" height="2"/>
+  <rect x="447" y="114" width="2" height="2"/><rect x="492" y="114" width="2" height="2"/>
+  <rect x="537" y="114" width="2" height="2"/><rect x="582" y="114" width="2" height="2"/>
+  <rect x="627" y="114" width="2" height="2"/><rect x="672" y="114" width="2" height="2"/>
+  <rect x="717" y="114" width="2" height="2"/><rect x="762" y="114" width="2" height="2"/>
+</g>
+
+<!-- Horizontal grid lines inside panel -->
+<line x1="320" y1="78" x2="785" y2="78" stroke="#0d1117" stroke-width="0.5"/>
+
+<!-- LEFT: name and skills -->
+<text x="24" y="53" class="mono f1" font-size="24" font-weight="bold" fill="#58a6ff">🐘 VoiTayNguyen</text>
+<text x="24" y="76" class="mono f2" font-size="12.5" fill="#8b949e">Embedded Software Engineer</text>
+<text x="24" y="98" class="mono f3" font-size="11" fill="#56d364">nRF52 · STM32 · ESP32 · SE050</text>
+<text x="24" y="116" class="mono f4" font-size="11" fill="#ffa657">BLE · NFC · LTE · OSDP · Aliro 1.0</text>
+
+<!-- Divider -->
+<line x1="292" y1="0" x2="292" y2="180" stroke="#21262d" stroke-width="1"/>
+
+<!-- OSC header label -->
+<text x="320" y="26" class="mono" font-size="10" fill="#8b949e">SIGNAL TRACE — EMBEDDED SYSTEMS</text>
+<circle cx="762" cy="22" r="3.5" fill="#56d364" class="live"/>
+<text x="768" y="26" class="mono" font-size="10" fill="#56d364">LIVE</text>
+
+<!-- Baseline -->
+<line x1="320" y1="110" x2="785" y2="110" stroke="#21262d" stroke-width="1"/>
+
+<!-- DATA signal trace — irregular pulse pattern (generic data bus) -->
+<polyline
+  points="320,110 335,110 335,60 345,60 345,110 365,110 365,60 395,60 395,110 405,110 405,60 415,60 415,110 445,110 445,60 455,60 455,110 475,110 475,60 505,60 505,110 515,110 515,60 525,60 525,110 555,110 555,60 575,60 575,110 585,110 585,60 595,60 595,110 620,110"
+  fill="none" stroke="#56d364" stroke-width="2.5" stroke-linejoin="round"
+  stroke-dasharray="700" stroke-dashoffset="700"
+  filter="url(#glow)"
+  style="animation: draw 3.2s ease 0.6s both"/>
+
+<!-- Clock trace (blue, lower row) -->
+<polyline
+  points="320,128 336,128 336,122 348,122 348,128 360,128 360,122 372,122 372,128 384,128 384,122 396,122 396,128 408,128 408,122 420,122 420,128 432,128 432,122 444,122 444,128 456,128 456,122 468,122 468,128 480,128 480,122 492,122 492,128 504,128 504,122 516,122 516,128 528,128 528,122 540,122 540,128 552,128 552,122 564,122 564,128 576,128 576,122 588,122 588,128 600,128 600,122 612,122 612,128 620,128"
+  fill="none" stroke="#0969da" stroke-width="1.5" stroke-linejoin="round"
+  stroke-dasharray="900" stroke-dashoffset="900"
+  style="animation: drawClk 4.2s ease 0.3s both"/>
+
+
+<!-- Status bar -->
+<rect x="0" y="158" width="800" height="22" fill="#161b22"/>
+<line x1="0" y1="158" x2="800" y2="158" stroke="#30363d" stroke-width="1"/>
+<text x="24" y="174" class="mono" font-size="10" fill="#0969da">● C++20</text>
+<text x="97" y="174" class="mono" font-size="10" fill="#56d364">BLE · NFC</text>
+<text x="180" y="174" class="mono" font-size="10" fill="#ffa657">LTE · WiFi</text>
+<text x="291" y="174" class="mono" font-size="10" fill="#8b949e">Ho Chi Minh City, Vietnam</text>
+<text x="565" y="174" class="mono" font-size="10" fill="#8b949e">github.com/voitaynguyen00</text>
+</svg>
