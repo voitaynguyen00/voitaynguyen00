@@ -10,7 +10,7 @@
 
 ---
 
-## 👋 Hi, I'm VoiTayNguyen
+## 👋 Hi, I'm NguyenTran
 
 <img width="45%" align="right" alt="embedded" src="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/main/git-header.svg" />
 
