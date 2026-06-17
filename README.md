@@ -86,8 +86,8 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=voitaynguyen00&include_all_commits=true&show_icons=true&hide_border=true&theme=transparent" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=voitaynguyen00&include_all_commits=true&show_icons=true&hide_border=true&layout=compact&theme=transparent" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=voitaynguyen00&count_private=true&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=voitaynguyen00&show_icons=true&hide_border=true&layout=compact&theme=transparent&langs_count=8" />
 </div>
 
 <div align="center">
