@@ -1,12 +1,16 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0969da&height=120&section=header&text=VoiTayNguyen&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+
 <div align="center">
   <a href="https://github.com/voitaynguyen00">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=500&lines=Embedded+Systems+Engineer;BLE+%7C+NFC+%7C+LTE+%7C+Access+Control;C%2FC%2B%2B+on+Cortex-M;Cryptography+%26+Secure+Boot;&center=true&size=22" alt="Typing SVG" />
   </a>
+
+  ![Profile views](https://komarev.com/ghpvc/?username=voitaynguyen00&style=flat-square&color=0969da)
 </div>
 
-# 👋 Hi, I'm VoiTayNguyen
+---
 
-## About me
+## 👋 Hi, I'm VoiTayNguyen
 
 <img width="45%" align="right" alt="embedded" src="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/main/git-header.svg" />
 
@@ -17,6 +21,14 @@
 - 🌱 Currently exploring: embedded protocol design, digital key ecosystems
 - 💬 Ask me about: BLE/NFC firmware, MbedTLS, OSDP, access control protocols
 - 📫 Reach me: voitaynguyen1234@gmail.com
+
+---
+
+## 🏆 Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=voitaynguyen00&theme=flat&no-frame=true&row=1&column=7" />
+</div>
 
 ---
 
@@ -73,12 +85,26 @@
 
 ## 📊 GitHub Stats
 
-<p>
-  <a href="https://github.com/voitaynguyen00">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=voitaynguyen00&include_all_commits=true&show_icons=true&hide_border=true&theme=transparent" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=voitaynguyen00&include_all_commits=true&show_icons=true&hide_border=true&layout=compact&theme=transparent" />
-  </a>
-</p>
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=voitaynguyen00&include_all_commits=true&show_icons=true&hide_border=true&theme=transparent" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=voitaynguyen00&include_all_commits=true&show_icons=true&hide_border=true&layout=compact&theme=transparent" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=voitaynguyen00&theme=transparent&hide_border=true" />
+</div>
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=voitaynguyen00&theme=github-compact&hide_border=true&area=true" />
+</div>
+
+---
+
+## 🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/output/github-contribution-grid-snake-dark.svg">
@@ -90,19 +116,21 @@
 
 ## 🔐 Featured project
 
-**[Aliro](https://github.com/voitaynguyen00/aliro)** — Complete C++20 implementation of the **Aliro 1.0** physical access control protocol (the NFC/BLE/UWB digital key standard).
+[![aliro](https://github-readme-stats.vercel.app/api/pin/?username=voitaynguyen00&repo=aliro&theme=transparent&hide_border=true)](https://github.com/voitaynguyen00/aliro)
 
-- SELECT → AUTH0 → AUTH1 three-message handshake, reader + device roles
+**[Aliro](https://github.com/voitaynguyen00/aliro)** — Complete C++20 implementation of the Aliro 1.0 physical access control protocol (NFC/BLE/UWB digital key standard).
+
+- SELECT → AUTH0 → AUTH1 handshake, reader + device roles
 - Pluggable crypto: OpenSSL 3.x or MbedTLS 3.x
 - 154 tests · CI: Ubuntu 24.04 + macOS 15 · No exceptions · Embedded-ready
-
-[![aliro](https://github-readme-stats.vercel.app/api/pin/?username=voitaynguyen00&repo=aliro&theme=transparent&hide_border=true)](https://github.com/voitaynguyen00/aliro)
 
 ---
 
 ## 💖 Support
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/voitaynguyen00)
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0969da&height=80&section=footer" />
 
 ---
 
