@@ -14,13 +14,15 @@
 
 <img width="45%" align="right" alt="embedded" src="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/main/git-header.svg" />
 
-- 🔧 Embedded firmware engineer — BLE, NFC, LTE-M access control systems
-- 💼 Building production firmware on **nRF52**, **nRF9160**, **STM32**, **ESP32**
-- 🔐 Deep in cryptographic protocols: **OSDP v2**, **DESFire EV2**, **PIV**, **FIDO2**, **Aliro**
-- 🛡️ Secure boot, flash encryption, NXP SE050 secure element
-- 🌱 Currently exploring: embedded protocol design, digital key ecosystems
-- 💬 Ask me about: BLE/NFC firmware, MbedTLS, OSDP, access control protocols
-- 📫 Reach me: voitaynguyen1234@gmail.com
+- 🔧 **Embedded Software Engineer** — 4+ years shipping production access control firmware
+- 💼 **nRF52** · **nRF9160** · **STM32** · **ESP32** · **Infineon CYW54907**
+- 📡 **BLE · NFC · LTE-M · LoRa · WiFi · OSDP v2 · Wiegand**
+- 🔐 **DESFire EV2/EV3** · **iCLASS** · **PIV** · **FIDO2** · **Aliro 1.0**
+- 🛡️ MbedTLS · OpenSSL · NXP SE050 · Secure Boot · OTA
+- 🎓 B.E. Computer Engineering — HCMC University of Technology (2022)
+- 🏅 Nordic Certified: nRF Connect SDK Fundamentals & Intermediate
+- 💬 Ask me about: BLE/NFC firmware, OSDP, DESFire, access control protocols
+- 📫 voitaynguyen1234@gmail.com
 
 ---
 
