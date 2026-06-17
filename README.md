@@ -1,111 +1,109 @@
 <div align="center">
-
-# Hi, I'm Trong 👋
-
-### Embedded Systems Engineer · BLE · NFC · Cryptography · Access Control
-
-[![GitHub followers](https://img.shields.io/github/followers/voitaynguyen00?style=flat&color=0969da)](https://github.com/voitaynguyen00)
-
+  <a href="https://github.com/voitaynguyen00">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=500&lines=Embedded+Systems+Engineer;BLE+%7C+NFC+%7C+LTE+%7C+Access+Control;C%2FC%2B%2B+on+Cortex-M;Cryptography+%26+Secure+Boot;&center=true&size=22" alt="Typing SVG" />
+  </a>
 </div>
+
+# 👋 Hi, I'm VoiTayNguyen
+
+## About me
+
+<img width="45%" align="right" alt="embedded" src="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/main/git-header.svg" />
+
+- 🔧 Embedded firmware engineer — BLE, NFC, LTE-M access control systems
+- 💼 Building production firmware on **nRF52**, **nRF9160**, **STM32**, **ESP32**
+- 🔐 Deep in cryptographic protocols: **OSDP v2**, **DESFire EV2**, **PIV**, **FIDO2**, **Aliro**
+- 🛡️ Secure boot, flash encryption, NXP SE050 secure element
+- 🌱 Currently exploring: embedded protocol design, digital key ecosystems
+- 💬 Ask me about: BLE/NFC firmware, MbedTLS, OSDP, access control protocols
+- 📫 Reach me: voitaynguyen1234@gmail.com
 
 ---
 
-## 🔧 What I build
+## 🛠️ Technologies & Tools
 
-Firmware for the things that **secure physical spaces** — BLE access control readers, NFC card authenticators, LTE-M IoT gateways. Production C/C++ on Nordic nRF52/nRF9160, STM32, and ESP32.
+**Languages**
 
-The kind of code that runs with no OS safety net, 64 KB of RAM, and needs to get cryptography exactly right.
+![C](http://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=ffffff)
+![C++](http://img.shields.io/badge/-C++-03234B?style=flat-square&logo=cplusplus&logoColor=ffffff)
+![Python](http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)
+![CMake](http://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=ffffff)
+![Bash](http://img.shields.io/badge/-Bash-000000?style=flat-square&logo=gnu-bash&logoColor=ffffff)
+
+**Microcontrollers & SoCs**
+
+![Nordic nRF52](http://img.shields.io/badge/-nRF52832%2F52840-00A9CE?style=flat-square&logo=nordicsemiconductor&logoColor=ffffff)
+![Nordic nRF9160](http://img.shields.io/badge/-nRF9160%20LTE-00A9CE?style=flat-square&logo=nordicsemiconductor&logoColor=ffffff)
+![STM32](http://img.shields.io/badge/-STM32L0-03234B?style=flat-square&logo=stmicroelectronics&logoColor=ffffff)
+![ESP32](http://img.shields.io/badge/-ESP32-E7352C?style=flat-square&logo=espressif&logoColor=ffffff)
+
+**RTOS & Frameworks**
+
+![ThreadX](http://img.shields.io/badge/-Azure%20RTOS%20ThreadX-0078D4?style=flat-square&logo=microsoft&logoColor=ffffff)
+![Zephyr](http://img.shields.io/badge/-Zephyr%20RTOS-4a90d9?style=flat-square&logo=zephyrproject&logoColor=ffffff)
+![nRF SDK](http://img.shields.io/badge/-nRF%20Connect%20SDK-00A9CE?style=flat-square&logo=nordicsemiconductor&logoColor=ffffff)
+![ESP-IDF](http://img.shields.io/badge/-ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=ffffff)
+
+**Wireless & Protocols**
+
+![BLE](http://img.shields.io/badge/-BLE%204%2F5-0082FC?style=flat-square&logo=bluetooth&logoColor=ffffff)
+![NFC](http://img.shields.io/badge/-NFC%20ISO%2014443-009900?style=flat-square)
+![LTE-M](http://img.shields.io/badge/-LTE--M%2FNB--IoT-FF6900?style=flat-square)
+![OSDP](http://img.shields.io/badge/-OSDP%20v2-555555?style=flat-square)
+![Wiegand](http://img.shields.io/badge/-Wiegand-555555?style=flat-square)
+
+**Cryptography**
+
+![MbedTLS](http://img.shields.io/badge/-MbedTLS%203.x-FFCC00?style=flat-square)
+![OpenSSL](http://img.shields.io/badge/-OpenSSL%203.x-CC2200?style=flat-square&logo=openssl&logoColor=ffffff)
+![AES-GCM](http://img.shields.io/badge/-AES--GCM%2FCMAC-888888?style=flat-square)
+![ECDH](http://img.shields.io/badge/-ECDH%2FECDSA%20P--256-888888?style=flat-square)
+![SE050](http://img.shields.io/badge/-NXP%20SE050-003399?style=flat-square)
+
+**Tools**
+
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=ffffff)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=ffffff)
+![VSCode](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=ffffff)
+![J-Link](http://img.shields.io/badge/-J--Link%2FRTT-AAAAAA?style=flat-square)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=ffffff)
+![Linux](http://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=000000)
+
+---
+
+## 📊 GitHub Stats
+
+<p>
+  <a href="https://github.com/voitaynguyen00">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=voitaynguyen00&include_all_commits=true&show_icons=true&hide_border=true&theme=transparent" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=voitaynguyen00&include_all_commits=true&show_icons=true&hide_border=true&layout=compact&theme=transparent" />
+  </a>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
 ## 🔐 Featured project
 
-<a href="https://github.com/voitaynguyen00/aliro">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=voitaynguyen00&repo=aliro&theme=default&show_owner=true" />
-</a>
+**[Aliro](https://github.com/voitaynguyen00/aliro)** — Complete C++20 implementation of the **Aliro 1.0** physical access control protocol (the NFC/BLE/UWB digital key standard).
 
-<br/><br/>
+- SELECT → AUTH0 → AUTH1 three-message handshake, reader + device roles
+- Pluggable crypto: OpenSSL 3.x or MbedTLS 3.x
+- 154 tests · CI: Ubuntu 24.04 + macOS 15 · No exceptions · Embedded-ready
 
-**[Aliro](https://github.com/voitaynguyen00/aliro)** — Complete C++20 implementation of the **Aliro 1.0** physical access control protocol (the NFC/BLE digital key standard backed by Apple, Google, and Samsung).
-
-```
-Phone (User Device)              Door Lock (Reader)
-      │                                │
-      │◄──────── SELECT AID ───────────│
-      │◄──────── AUTH0 ────────────────│  ephemeral key + nonce
-      │────────── AUTH0 response ─────►│  ECDH → session key
-      │◄──────── AUTH1 ────────────────│  transcript signature
-      │────────── AccessDocument ─────►│  🚪 door opens
-```
-
-- **Pluggable crypto**: OpenSSL 3.x or MbedTLS 3.x — swap at compile time
-- **Embedded-ready**: no exceptions, no RTTI, runs on Cortex-M
-- **154 tests**, CI matrix: Ubuntu 24.04 + macOS 15 × Debug + ASan
-
----
-
-## 🛠️ Stack
-
-**Languages**
-
-![C](https://img.shields.io/badge/C-expert-blue?logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-advanced-blue?logo=cplusplus&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-advanced-064F8C?logo=cmake&logoColor=white)
-![Python](https://img.shields.io/badge/Python-intermediate-3776AB?logo=python&logoColor=white)
-
-**Microcontrollers**
-
-![nRF52](https://img.shields.io/badge/nRF52832%2F52840-Nordic-00A9CE)
-![nRF9160](https://img.shields.io/badge/nRF9160-Nordic%20LTE-00A9CE)
-![STM32](https://img.shields.io/badge/STM32L0-ST%20Micro-03234B)
-![ESP32](https://img.shields.io/badge/ESP32-Espressif-E7352C)
-
-**Wireless & Protocols**
-
-![BLE](https://img.shields.io/badge/BLE-4%2F5-0082FC?logo=bluetooth&logoColor=white)
-![NFC](https://img.shields.io/badge/NFC-ISO%2014443-darkgreen)
-![LTE](https://img.shields.io/badge/LTE--M%2FNB--IoT-nRF9160-orange)
-![OSDP](https://img.shields.io/badge/OSDP-v2-gray)
-![Wiegand](https://img.shields.io/badge/Wiegand-26%2F34-gray)
-
-**Crypto**
-
-![MbedTLS](https://img.shields.io/badge/MbedTLS-3.x-yellow)
-![OpenSSL](https://img.shields.io/badge/OpenSSL-3.x-red)
-![ECDH](https://img.shields.io/badge/ECDH%2FECDSA-P--256-lightgray)
-![AES-GCM](https://img.shields.io/badge/AES--GCM%2FCMAC-lightgray)
-![SE050](https://img.shields.io/badge/NXP%20SE050-Secure%20Element-lightblue)
-
-**RTOS**
-
-![ThreadX](https://img.shields.io/badge/Azure%20RTOS%20ThreadX-0078D4?logo=microsoft)
-![Zephyr](https://img.shields.io/badge/Zephyr-3.x-4a90d9)
-
----
-
-## 📡 Domain expertise
-
-| Area | Experience |
-|------|-----------|
-| **BLE** | GATT services, advertising, central + peripheral, beacons |
-| **NFC** | DESFire EV2 secure messaging, PIV/CAK, Aliro, NDEF |
-| **RFID 125 kHz** | Prox, EM4100, HTRC110 driver |
-| **OSDP v2** | Control Panel (CP) + Peripheral Device (PD) both roles |
-| **DESFire EV2** | Secure messaging, transport key programming |
-| **PIV** | Card authentication, CAK verification |
-| **FIDO2** | WebAuthn on nRF52840 (canokey-core) |
-| **Secure boot** | RSA-3072 + nCipher HSM signing, flash encryption |
+[![aliro](https://github-readme-stats.vercel.app/api/pin/?username=voitaynguyen00&repo=aliro&theme=transparent&hide_border=true)](https://github.com/voitaynguyen00/aliro)
 
 ---
 
 ## 💖 Support
 
-If any of my work saved you from reimplementing P-256 ECDH or BER-TLV parsing yourself:
-
-[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github-sponsors)](https://github.com/sponsors/voitaynguyen00)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/voitaynguyen00)
 
 ---
 
-<div align="center">
-<sub>Embedded · Wireless · Cryptography · Physical Security</sub>
-</div>
+⭐️ From [VoiTayNguyen](https://github.com/voitaynguyen00)
