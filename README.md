@@ -26,14 +26,6 @@
 
 ---
 
-## 🏆 Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=voitaynguyen00&theme=flat&no-frame=true&row=1&column=7" />
-</div>
-
----
-
 ## 🛠️ Technologies & Tools
 
 **Languages**
