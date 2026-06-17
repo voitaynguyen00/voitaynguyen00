@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .border { fill: none; stroke: #0969da; stroke-width: 1.5; rx: 8; }
+      .title { font-family: 'Courier New', monospace; fill: #58a6ff; font-size: 13px; font-weight: bold; }
+      .key { font-family: 'Courier New', monospace; fill: #8b949e; font-size: 11px; }
+      .val { font-family: 'Courier New', monospace; fill: #56d364; font-size: 11px; }
+      .str { font-family: 'Courier New', monospace; fill: #a5d6ff; font-size: 11px; }
+      .dot { fill: #f85149; }
+      .dot2 { fill: #ffa657; }
+      .dot3 { fill: #56d364; }
+      .cursor { fill: #58a6ff; opacity: 1; }
+      .blink { animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .fade1 { animation: fadeIn 0.5s ease 0.2s both; }
+      .fade2 { animation: fadeIn 0.5s ease 0.6s both; }
+      .fade3 { animation: fadeIn 0.5s ease 1.0s both; }
+      .fade4 { animation: fadeIn 0.5s ease 1.4s both; }
+      .fade5 { animation: fadeIn 0.5s ease 1.8s both; }
+      .fade6 { animation: fadeIn 0.5s ease 2.2s both; }
+      .fade7 { animation: fadeIn 0.5s ease 2.6s both; }
+      .fade8 { animation: fadeIn 0.5s ease 3.0s both; }
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="300" rx="10" class="bg"/>
+  <rect x="1" y="1" width="398" height="298" rx="9" fill="none" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Window controls -->
+  <circle cx="20" cy="20" r="5" class="dot"/>
+  <circle cx="36" cy="20" r="5" class="dot2"/>
+  <circle cx="52" cy="20" r="5" class="dot3"/>
+  <text x="180" y="25" text-anchor="middle" font-family="Courier New" font-size="11" fill="#8b949e">main.c</text>
+
+  <!-- Divider -->
+  <line x1="0" y1="36" x2="400" y2="36" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Code -->
+  <text x="20" y="58" class="title fade1">#include &lt;aliro/protocol.h&gt;</text>
+  <text x="20" y="78" class="title fade2">#include &lt;mbedtls/ecdh.h&gt;</text>
+
+  <text x="20" y="106" class="fade3">
+    <tspan class="val">void </tspan><tspan class="str">authenticate</tspan><tspan class="key">() {</tspan>
+  </text>
+
+  <text x="20" y="126" class="fade4">
+    <tspan dx="20" class="key">// SELECT → AUTH0 → AUTH1</tspan>
+  </text>
+
+  <text x="20" y="146" class="fade5">
+    <tspan dx="20" class="val">Result</tspan><tspan class="key">&lt;</tspan><tspan class="str">SessionKey</tspan><tspan class="key">&gt; key =</tspan>
+  </text>
+
+  <text x="20" y="162" class="fade5">
+    <tspan dx="40" class="str">session</tspan><tspan class="key">.</tspan><tspan class="val">authenticate</tspan><tspan class="key">(</tspan>
+  </text>
+  <text x="20" y="178" class="fade5">
+    <tspan dx="56" class="str">readerKp</tspan><tspan class="key">, </tspan><tspan class="str">devicePub</tspan><tspan class="key">);</tspan>
+  </text>
+
+  <text x="20" y="200" class="fade6">
+    <tspan dx="20" class="val">if </tspan><tspan class="key">(key) {</tspan>
+  </text>
+  <text x="20" y="218" class="fade7">
+    <tspan dx="40" class="str">unlockDoor</tspan><tspan class="key">();  </tspan><tspan class="key">// 🚪</tspan>
+  </text>
+  <text x="20" y="236" class="fade7">
+    <tspan dx="20" class="key">}</tspan>
+  </text>
+
+  <text x="20" y="254" class="fade8">
+    <tspan class="key">}</tspan>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="28" y="242" width="7" height="13" class="cursor blink fade8"/>
+
+  <!-- Bottom status bar -->
+  <rect x="0" y="276" width="400" height="24" rx="0" fill="#161b22"/>
+  <rect x="0" y="275" width="400" height="1" fill="#30363d"/>
+  <text x="12" y="291" font-family="Courier New" font-size="10" fill="#0969da">● C++20</text>
+  <text x="75" y="291" font-family="Courier New" font-size="10" fill="#56d364">✓ 154 tests</text>
+  <text x="162" y="291" font-family="Courier New" font-size="10" fill="#ffa657">⚡ embedded</text>
+  <text x="255" y="291" font-family="Courier New" font-size="10" fill="#a5d6ff">🔐 no exceptions</text>
+</svg>
