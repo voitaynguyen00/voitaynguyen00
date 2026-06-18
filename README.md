@@ -14,15 +14,17 @@
 
 <img width="45%" align="right" alt="embedded" src="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/main/git-header.svg" />
 
-- 🔧 **Embedded Software Engineer** — 4+ years shipping production access control firmware
-- 💼 **nRF52** · **nRF9160** · **STM32** · **ESP32** · **Infineon CYW54907**
-- 📡 **BLE · NFC · LTE-M · LoRa · WiFi · OSDP v2 · Wiegand**
-- 🔐 **DESFire EV2/EV3** · **iCLASS** · **PIV** · **FIDO2** · **Aliro 1.0**
-- 🛡️ MbedTLS · OpenSSL · NXP SE050 · Secure Boot · OTA
-- 🎓 B.E. Computer Engineering — HCMC University of Technology (2022)
-- 🏅 Nordic Certified: nRF Connect SDK Fundamentals & Intermediate
-- 💬 Ask me about: BLE/NFC firmware, OSDP, DESFire, access control protocols
-- 📫 voitaynguyen1234@gmail.com
+Embedded Software Engineer with 4+ years shipping production firmware for physical access control systems — from bare-metal Cortex-M drivers to protocol-layer cryptography and OTA.
+
+**Hardware:** nRF52832/52840 · nRF9160 · STM32L0 · ESP32 · Infineon CYW54907  
+**Wireless:** BLE 4/5 · NFC ISO 14443 · LTE-M/NB-IoT · LoRa · WiFi · OSDP v2 · Wiegand  
+**Access protocols:** DESFire EV2/EV3 · iCLASS · PIV · FIDO2 · Aliro 1.0  
+**Security:** MbedTLS 3.x · OpenSSL 3.x · NXP SE050 · Secure Boot · OTA  
+
+B.E. Computer Engineering — HCMC University of Technology (2022)  
+Nordic Certified: nRF Connect SDK Fundamentals & Intermediate  
+
+📫 voitaynguyen1234@gmail.com
 
 ---
 
@@ -77,27 +79,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=voitaynguyen00&count_private=true&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=voitaynguyen00&show_icons=true&hide_border=true&layout=compact&theme=transparent&langs_count=8" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=voitaynguyen00&theme=transparent&hide_border=true" />
-</div>
-
----
-
-## 📈 Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=voitaynguyen00&theme=github-compact&hide_border=true&area=true" />
-</div>
-
----
-
 ## 🐍 Contribution Snake
 
 <picture>
@@ -112,11 +93,15 @@
 
 [![aliro](https://github-readme-stats.vercel.app/api/pin/?username=voitaynguyen00&repo=aliro&theme=transparent&hide_border=true)](https://github.com/voitaynguyen00/aliro)
 
-**[Aliro](https://github.com/voitaynguyen00/aliro)** — Complete C++20 implementation of the Aliro 1.0 physical access control protocol (NFC/BLE/UWB digital key standard).
+**[Aliro](https://github.com/voitaynguyen00/aliro)** — C++20 implementation of the Aliro 1.0 digital key standard for physical access control over NFC, BLE, and UWB.
 
-- SELECT → AUTH0 → AUTH1 handshake, reader + device roles
-- Pluggable crypto: OpenSSL 3.x or MbedTLS 3.x
-- 154 tests · CI: Ubuntu 24.04 + macOS 15 · No exceptions · Embedded-ready
+Aliro replaces proprietary card credentials with smartphone-based digital keys using a multi-step mutual authentication handshake (SELECT → AUTH0 → AUTH1), ECDH key agreement over P-256, and AES-GCM session encryption. Implements both reader and device roles with distinct state machines.
+
+**Design decisions:**
+- No exceptions — safe for RTOS and bare-metal targets where exception unwinding is unavailable
+- Pluggable crypto backend — swap between OpenSSL 3.x and MbedTLS 3.x without touching protocol code
+- 154 unit + integration tests covering each handshake state, error paths, and crypto vectors
+- CI on Ubuntu 24.04 + macOS 15, validating both host and cross-compilation toolchains
 
 ---
 
