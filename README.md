@@ -10,7 +10,7 @@
 
 ---
 
-## 👋 Hi, I'm NguyenTran
+## 👋 Hi, I'm Alla
 
 <img width="45%" align="right" alt="embedded" src="https://raw.githubusercontent.com/voitaynguyen00/voitaynguyen00/main/git-header.svg" />
 
@@ -128,4 +128,4 @@
 
 ---
 
-⭐️ From [NguyenTran](https://github.com/voitaynguyen00)
+⭐️ From [Alla](https://github.com/voitaynguyen00)

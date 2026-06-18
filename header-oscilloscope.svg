@@ -47,7 +47,7 @@
 <line x1="320" y1="78" x2="785" y2="78" stroke="#0d1117" stroke-width="0.5"/>
 
 <!-- LEFT: name and skills -->
-<text x="24" y="53" class="mono f1" font-size="24" font-weight="bold" fill="#58a6ff">🐘 NguyenTran</text>
+<text x="24" y="53" class="mono f1" font-size="24" font-weight="bold" fill="#58a6ff">🐘 Alla</text>
 <text x="24" y="76" class="mono f2" font-size="12.5" fill="#8b949e">Embedded Software Engineer</text>
 <text x="24" y="98" class="mono f3" font-size="11" fill="#56d364">nRF52 · STM32 · ESP32 · SE050</text>
 <text x="24" y="116" class="mono f4" font-size="11" fill="#ffa657">BLE · NFC · LTE · OSDP · Aliro 1.0</text>

@@ -163,7 +163,7 @@
 <!-- Name (appears through the rain) -->
 <text x="400" y="97" text-anchor="middle" class="nt" font-size="30" font-weight="bold"
   fill="#58a6ff" filter="url(#nameGlow)"
-  style="animation: nameIn 3s ease both">🐘 NguyenTran</text>
+  style="animation: nameIn 3s ease both">🐘 Alla</text>
 
 <text x="400" y="118" text-anchor="middle" class="nt" font-size="12.5"
   fill="#c9d1d9" filter="url(#subGlow)"
