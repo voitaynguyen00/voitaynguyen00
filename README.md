@@ -22,7 +22,7 @@ Embedded Software Engineer with 4+ years shipping production firmware for physic
 **Security:** MbedTLS 3.x · OpenSSL 3.x · NXP SE050 · Secure Boot · OTA  
 
 B.E. Computer Engineering — HCMC University of Technology (2022)  
-Nordic Certified: nRF Connect SDK Fundamentals & Intermediate  
+Nordic Certified: nRF Connect SDK Fundamentals · nRF Connect SDK Intermediate · nRF54L Series Express · Cellular IoT Fundamentals  
 
 📫 voitaynguyen1234@gmail.com
 
